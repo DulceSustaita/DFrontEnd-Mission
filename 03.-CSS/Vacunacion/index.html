@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccune</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="index.html" class="logo">Vaccination</a>
+            <span class="menu-icon">Menu</span>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="database.html">Database</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="https://www.bbc.com/mundo/topics/cnq68748nj7t">News</a></li>
+                    <li><a href="#">Regulation</a></li>
+                    <li><a href="formInfo.html"><button type="button" class="button">Register</button></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container"> 
+            <div class="columnaDerecha">
+                <img src="img/vacuna01.png" width="550" height="900">
+            </div>
+            
+            <div class="columnaIzq izqArriba">
+                <h1>Fight Virus <br>With Vaccines</h1>
+                <p>Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected</p>
+                <br>
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZFJREFUSEu1VW1VAzEQnFUAVQAScEAXA+CAogBQQKuAogBwQBWkOKgDkHBVEN7kJW1uL3eXd7zuz3zM7M7OJoITh5wYH9UE3mEB4BFAA4+13GBTk9wggXc4B3AP4AnApQH8BbAG8CmKpo+sSOBdAGO2zJokQ0HwDwBvoiBpK1oE3uEqA65RwJ5JRLu0YQn8FFRzpxHF7JQEED2a5z8V7AFsAdyaCvaix75ZAl64rpCJ4HNR7LzDlyH5FsW8TyI2ibbMYxVtehYXc3Cawhmn0U20dQhbATdeM/SVKJbRXayOkTIvgXP/QTTYtkhA//9kBPS4RikIyAZSlj5wHpnlg9cZNO9C4/I+HEh4ewR8I4q7XN8SAaf33XqblcQ1q3l+lNUmKbsSpZPehZG/KJBwqe/paLmn2IOMgDZjprVxcJa90PuaeoclgJdKhmfR8LJ2Yuy5Ls2FBeFzzb4VY/TD8S542g5fAhsED7aukcC7MJmULJ/mhWh4JgajioAI8RNKOhO89xfLGasJxjKd3IOpwOneH2JufRnx+HPWAAAAAElFTkSuQmCC"/>
+                Best Proteccion</p> 
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAV9JREFUSEu1leFVwzAMhD9NAGxAJwAmoJoA2KBMQJkAOgFsAGzABm43oBPQEWAC8WySkDp24rRU7/lP7NxJ1uksHDjkwPiMIjDHB2CiXJQmVkxgjhnwUgHfivJaQjKGYAlcVqBLUfTfCMwxBVwEqKJ40t4oqsAc78BVhPQmGq5tPwJznAKfGZSJKJs+hqYCc1wDZxAA/fJxDJwPJOmV9VWd8WR+rUVD1X8yNYcNlTtmX/QXu11BW4ZjsFJnGxlvNTnS+i4k38C8PSMdFe1B4sGnomHam0jKdAeSJPhWD+L7MMczcFd4T9mhyw6auTCltTUM8dyLhoQ60UcwRrYr0WAnZQQZ7xmq4kS0GbjBJs+BpwTiovr2kNi7qae3REWxua2BWS1Bc8E+/HvgraWOpPnlZOq95aj6cyHKY+p+zIXvdTUbUSbxuRxBPSxN1rkGtKpBtGuMRe/BUHf79g9O8ANu6WMZcROndwAAAABJRU5ErkJggg=="/>
+                Selected Vaccines</p>
+                <br>
+                <p class="subtitulo02"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWJJREFUSEu1ld1VgzAYhh8u4NYR1AlsJ/DEBdQJ7Aa2k4gTqBOIE8QR6AbtBr0OF/GkDZwQIJBaOCdXJO/z/eVNwsxfMrM+o4AUuUrgHljYZWIqT0sXioefUJCDgAz5BLwBNyNZ7oCNQhR9+3oBKTJP4DWmfBryCrHxz3QA54jXohreK8TahbQAtizfQ5ErxHF/htSB7J7dcvkAU8/rfwJ2CnFbazQAOy0fobpPzMBINFk0gAz5CbxcCPClECuj5QLMbN9dCFAqxNIHhBp35DolOgBXU4JxMxgFaFhWiDJFLhL4DUHqYKJKBBw0iAmQrUIYa2n1YLTJtiRTIL1NNt4zeMm8ejeQDGk86NH73x1Te0ODF82HcOqDCcz99grRGGSUVUw0v2GrMAKzml0d4TmQPidtTZGfvnXWPGR+9sweWEc9OC7MgkwjzVzXVrK1z2YxJNxx04kNjN42+uhHK3oH/gDtXYQZnn0jfQAAAABJRU5ErkJggg=="/>
+                Schedule your vaccinations</p>
+
+                <div class="box1">
+                    <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYNJREFUSEu1ld1VwkAQhb/oIfImJWgFQgVmK9EO0AqEDqADrWSxg1iBlgBvGo6sZ+IGTfYveWAfdy/3m7mzbDJOvLIT+5MEjNFX3zDPoACmtqDSwOYc1p+oj1iRUcAIvcpgHjMwsNqjHkOaICBHl8BNzwjLCjXzab2APpV3zQys96iH7r4DkMwP8N6z8pbsDK67M3EAA6vfASvgSUi+LhzAgOx3Boo9qszRCwtxZuEDmB7xHM1H6GkGGpjI7ypUy7MPYAnI8C4tOGgO7CpUDWqWA7hAbwzcWsGyQi1slRubcx1Lt3I5y+D1CyV/yDAgRz8Dd1axNaAaQ9kLmVv9S4W6jwLG6OLwm2mzjhDZ8FXeCA3MpIAoQA49N6mG2BiOA+0YOfFYvXtnPF2IaGuVrSHGqg8CbBTJh+6fufeZiAICUTnt+m5OcgZ/Aj3JQa5n6FV9q+rvhGri8xXgzqC9E4QkzZMRRTrpZT4AINK6E3k5qeqnIxzLgBmk4kufJz/6aYu44gfagZEZvsV52QAAAABJRU5ErkJggg=="/>
+                        Location <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMBJREFUSEvNlsENwjAMRV97qLgxArBJswlMBpuEUdINOFY5ACpqEK2SukpkILfKtZ//txSnQvlUyvVZBDTYx9CAx0T/k+JD7ncBG2x7hzOwz7TO1XDqMdeQP1HQYB2wyywe0pzHHFKAl+el53NmcwWLQ5XAsaH/BiB1KsVFi6QCUvx/AKGT+fBS30HZagXqAMnrVHy1AnWAukXqAHWLNAA3YJtbeMzrPOa9TyaX3bhwLgU7oavhmFw4hZ1H09VfFU9E13QZa83P4wAAAABJRU5ErkJggg=="/>
+                        Date <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAO5JREFUSEu9lcsNwjAMQF+QWnGjIzACjJBJgIkYAdiADcIIjMAIPaL2UBREpbQkIZ8Wn5P3bMduBTOHmJlPlqBA7XWCLfLsSjRZoOECThrcwcElSRSoqoQHsOozd0kSBKoCWReojYCbIbk0yHfLzIgSfNpy7EC2yLshudrgWhQsMHsO1L1kiVo/kbpd1ggSjOA9qF7A1gcPqsAB13etPY96gxKl53tnqT0I7q1gCrhTMBXcKnDBfdvq+559TVGJ6sYXUuGuCgaCHPhPQS48aA9y/xdBm5wj+b/ANkUxFTTIQdJBYzqpIAYWcnb2N3gBPK9UGf7w+skAAAAASUVORK5CYII="/>
+                        Vaccine Type<br>
+                        <p class="susbtitulo03"> Jakarta Utara   08 July 2021  Moderna  <button type="button" class="button">Submit</button> </p>
+                    </p>
+                </div>
+            </div>
+
+            <div >
+                <p class="subtitulo01 text-izq">Why should I vaccine?</p>
+                <p class="text-izq">In order to avoid any doubts about getting the COVID-19 vaccine, identify the dollowing 4 benefits of COVID-19 vaccination:</p>
+            </div>
+            <div class="father">
+                <div class="box01">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQhJREFUSEu9lLsVwjAMAC8UeZRsAEwAI2AmYAMYDTaACZwRwgSEDSh5LoAXgiHkY8vh48qFpHOkiyJ+fKIf18cLiNELYALX1DDfhT7IAdCDGDQwLRVNDShQJymoFRCj18ASOAL5fQUMgY1B5XfReQJi9LUpowfjMyrro0cXOIiqAj1QZ1TyP0D1ZaUWZaUWjTq3qP7p9yEnhUHPszcws0OWGCbVNDcpNahtgZIb5gU0DTXEMO+QXda4DDOoe+3/AaR+53Ehhrn+ZMcO8htmH9wAkBvy0LRi2HsvaoAQQyRtbR1y1x1koV6Lvg6w5BBDglr0CpYb0hFQpEkM+QggSZbEdFp2ksI25gb9Oo8Zrj/xDwAAAABJRU5ErkJggg=="/>
+                    <p class="subtitulo03">Minimize the spread of viruses</p>
+                    <p>Vaccine has been proven effective to prevent someone from getting infected with Coronavirus.</p>
+                </div>
+                <div class="box02">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbJJREFUSEu1ldFRAjEQhr/ocPAmVCAl2IHEBrQDsAKwArECoQKhA6kg2IEdSAnwBmEkzkLu5gh33IHDPt0l2f/f/bO7UVzY1IXxKU1QwXQUdB3MFW5geZiUCa6AwNSr0HbQA5oB4EzBYAVj0PM8skyCGqb5C10FHaBeEOncwegahkv0LDy7R1DB3IkM7IDPsZGD4Rr9HTvvEUQYdw5q4DO36MYlCbDoJPD/ZLAApsBjkMHCopN72yOoYqYO7kvItHDQEq0jzGeaRMHXCt3Kk2gEtAOCN3ZleuPXE3BfFCZdaf6S5fzWwgx6Dt5TBG8W3fdAIgdx5Fngfv95jZZADwmk/jfwkyKQGtcihQDKevytYC/y2MdCI914B42WcQ8JiYDkRe4JJhb9lJb4gMDPnI+wtiUTr2lm5LJ3BXqJ3kqZKVG8GGGk5W9DEv+fOTrC6jlKUMO0NjuNy1pSWaFD7jSNMH3gtQyDgpcVepB19ui4jjBZfRHijC06dzgWPjgFJEfBfVEUi1DFSAOKZEk3y0i3aBkTR60wg9jbN+FWZ7t9L/JfscIyLYrqlP3SGZwCmj77B/WRkhl2n3iGAAAAAElFTkSuQmCC"/>
+                    <p class="subtitulo03">Forming antibodies</p>
+                    <p>COVID-19 vaccine provent to help shape antibody response for immunes system.</p>
+                </div>
+                <div class="box03">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASpJREFUSEvVldFNwzAQhj8jNeWtZQJGoGyQ26AbNCO0E1AmgA1oNmADM0LZACagfaNGIuhQEpEopnGaIHGv9v3f3W/7bBg4zMD6VAARdg7cALOO4Bdg5ZDHIr8O0A2XHcWLtK1Drn2A7ETx73SHlIXXO/AB9gbWB9iowBiSDNbApKmgYICB1QG5/yk2xi4zuOsF4OACZFcVs9MI3v4HYHCLgF1+yGl+yIv8kKe9WBR6dYNv0V8A0jPYvCNPCjvHxp+QAItTLdpnEH8g2yahEXZmQKGVBxdi0a1D9MV6I8Lqug7IMkIAofYfnUV9TNNnh5Tjvuk/0JavOpUOr8DS+x/4REfYxMBDbT11iN6kX6P1l1mDtBJXcmuAbs4hcZvKi7aCAMfsaFofHPAF3+5wGXkMtroAAAAASUVORK5CYII="/>
+                    <p class="subtitulo03">Protecting people nearby</p>
+                    <p>The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us.</p>
+                </div>
+                <div class="box04">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASFJREFUSEvFltFxwjAMhj9z1xxvhQlKJ+gIoE3CBnSCXjdgA9oNuoHpBt2AsEF4A/eO9FwcLinEJiQpepX1f5YUWVF0bKpjfbyACJ3ZCxjk7LmQ38b+L6CPnuxhAYyuLF3Sg+kWWebxpQwidAI8XCmehyUGeawC/Na8qRV79jcDb1ND4HNNvw0gdNOQP1iikEDI3wSwceL3PkgTwKsTfukCsDFuACOw81KZRa0MFDwr+NgiVvRoffRoDzFwkk0tAJBmIN/IVxFwh47V4Vk5sboAK5AaZFhUyoeqFYCCzx0yAT04CEoaoW1GT60AgHdgBcyc4FyBZDBuCxCarZLf14PU9/ldSFkb5LhPSo+dWzhvDXbCugdx5cK58Ia1jnX+V/EDOLVvGWFzAKAAAAAASUVORK5CYII="/>
+                    <p class="subtitulo03">Creating group immunity</p>
+                    <p>COVID-19 vaccination is also beneficial for creating group immunity or herd immunity.</p>
+                </div>
+            </div>
+
+            <br>
+            <div class="col-izq2">
+                <img src="img/vacuna3.png" width="400" height="600">
+            </div>
+            <div class="col-Derecha2">
+                <p class="subtitulo01">Preparations Before Vaccine</p>
+                <p>The success of vaccines is strongly influenced by the strenght of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work:</p>
+
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAc5JREFUSEu1ld1R4zAURo8yE4c3oALogN0KNpcGgApgKyBbwSYVbKgA6IBUIOiADqCE5A2UWcTcxPIoshwbZqInj331nftvw46P2bE+nQF97BVwqQ4Z/NRxOuviXAvAHgzg0sMIOE4EXz2MlzADmTfBsoA97PF/uDagXh+0eKri0x7cvyGvqe0GoI/9YeCatfB3zl0PJjFoA1Bg/XdUkztzhxyGd7sA4JBKtytgwrrQ+6VnC8078DcT8cIhVd02AAPso4dfyaWJQ8ZlfR71m4fhEnkusOMUYuDpHRk2pegu9HoEmXsQFVSIvg/PBmzaZR5ulohGuzppBCMP/zJhVxD9VkZTEy+j+71E1NE6QPv/A15yeQ1piQCarlCT6oqDw3jwaoNWYJ+BkwiyCOKZFKWQmUPOYwdrAN05Bm4joweHXERp0SKvalJgH4CzYNsDeUNWjZBNUXhZYHXkj2IIoJ0R2k/XgwpV3qbdsxWwhx1+rDuk8/HwU6NKLzRu0z52Wu6lVoiBP++IDl7tbF3XBTY3F6nIvUMal2PrD6cFslVcPWkFqNEAqwOoa6HaRQbGTWlp7aJcLsshXOW5B6Pcz+XLNWitbgeDTinqoNNo8gmo6ZgZQiEaYAAAAABJRU5ErkJggg=="/>
+                Avoid alcoholic beverages</p>
+
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARBJREFUSEvFlcsNwkAMRN8e4AodUALQAdsBHSA6gAqgBSqAEuggdEDoADog13BY5IhEm+UjeUMgRysz4xmvbEPLn2mZn98KdEmmwAoYRTo7A8scuy/xNQddEvlhEElewtIcO34n4BqSF/AcWzUeOvibQAb0AnevanoHDuZAauDgiWQOJvIYDGzDWDURXR3YGzbtkAiZiCDkXi0B+r6IRkBwNREpfCKPHXIlIgQPN0+dly60DgRXZC6dewL+TGpj0ApU5NJ5ENFLEZWAg3GQuQzZH/yxySsS7M7BxoCfeTETAwtg1lRAvT1UEanZ/72LvrGuTzm2uifhNpWDswaGMdEAF2Dx9uBEkn6E/fYmt+HgDlcnfRkB4vx4AAAAAElFTkSuQmCC"/>
+                Avoid stress</p>
+                
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAK9JREFUSEtjZKAxYKSx+Qz0tYCNYX8AAwNDPQMDgwGZPnvAwMBQ+IvBcQNMP4oP2Bj2gxTIk2k4TNuFXwyOhrgs+E+h4WDtvxgc4Q5H98HAWgBzGRvDfrwOIdsHw88CXD6iWhBRbAG6AYT4sCROtA8IGTjqA3iWh2UsQkE2+OKA3IIPXyqiRnF98ReDI7w+QS9NQRVOAwMDgz6Zrn/IwMBQgLPCIdNQvNroWyfTwgcAWFCHGYbXEp0AAAAASUVORK5CYII="/>
+                Eat healthy food</p>
+
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASFJREFUSEvlldFtwjAQhj8jkfYNNqCdoIzQm6BlAmADOkFhgnaDwgSwgdmgjBA2gDcwUlOZOhFEDZUdAg+NFMkPufvu/3O+U1T8qIrzc1nALfrxCz6Au0BlcQ36G2Sexh8piNAx0ApMnobFBrkvAiQlk+/DDZIVnlfwvwBrwP7Mp7yt57KoY5BZhB4Cr4eQ0gAFL1vkHXQzgs98W/sCRsAAaLgqJwbp2XOEXgAPZSwaGWRYR7fVj9+2x9su+Rjo/tbWPgpWCcgOWVjIDmKQ1Q16kMBb0Z3xAdgcGcRV/gxMT11IX0AGsQcFGmieG7CHuPfPQRiiwGtEXRVgbUj73avqg4+XBslsPJqmbuHY/g7dCcsa9AoXTmjJp+Iuu5OrUPAN8AlrGeRO4rUAAAAASUVORK5CYII="/>
+                Get enough sleep</p>
+
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARNJREFUSEvFlc2VwiAUhT8WZraWYAfjVDDSgR2oFViLFYzTgR2gHZgOLMGtuGAOkDjG/GKCsiPvnPvx7uMSQeQlIuvzHkCCmgMLYGo7NHASsNHInd3buoG1gEnmwBH4zev3rjx0oMYJ/AAWUFoG9vajgFmNtTsNK5DnvF4AJCh7ks+eczlq5FcJMEIthT9972VgdUVus2693gdqb+C7t7q38HBBOhtvFiUoM4R4rqGRTvt1gOgWRR9yFqAhrmmqkS6ghRn4rQuaDdOzWUi1C2FN0HpCSuIVHeSNBXdSKd4ACLKrVrwF0AnSKN4B0AhpFe8IqIR0Eg8AFCA8XsWmNyzwl6nGXuz/nrc9kIGANrlyPTrgDznVXhkm45Z8AAAAAElFTkSuQmCC"/>
+                Exercise or physical activity</p>
+            </div>
+            <br>
+            <div>
+                <p class="subtitulo01">Emergency Contact</p>
+                <p>Contact one of the contacts below if you or your family feel unwell and have similar symptoms such as Covid-19, make sure you also take care of yourself before reporting to us:</p>
+                <div class="father2">
+                    <div class="square01">
+                        <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeZJREFUSEvVld9N40AQhz9byubeCBUAFRxUQIYGIBXcpYKDCu6ogFABUAGhgg0VEDqghDxeNhKLxvGGtb0OIRIPrBQpsmfnmz+/GWd88cm+2D9bAQzWA9Plz48dJw9tgSYBHewogz0HQ5BZ/XIJiB9PPQwXiEIrpwawvQ7cZ9BXKw+TBSKp6DrYwxz6Hs6BPWDm4WKB3Mb2FYDBagQ/aw5vHTJc16sy4z8lROJM6gCtbepUIAar0T5lMHHIpV6IIFOHHAUnmwJUDRdzZKQXaz1YOTTYl7JcA4eM1bYC6GInHo5bsnhwyFl4Z7D6/5+WNMC72HMPV8CdQ343AAarDfqVADy7ovFVRZUQFcXjHOlr4zN4UvmGMtVLpFHd1wBJ51Em2reZQ3bj8jmk8N2QqQGt405wkMPBf0SfbXUag5Yo06VDtNZbnQbgB3b/dbkGQhazHI6aWdiegRuV6hy5bqMnV4XBasR/o0vTHAbvkMK5BQ5Lm9ZhbF12Bqs6Po0gupNGOdy9LoUQnAeTJGTNNi2inCRWR2svlruLQSznD9a17XVhvGb4UrDVkCVkmg6u7IluzZV829LwcL1A1LY4G39wSnVp83UYk6Aw0TF8Y8D7peKbcabfjAz2o/IlJ34LwOfm7fsD3gA7lqYZjvITVAAAAABJRU5ErkJggg=="/>
+                        Call</p>
+                        <button type="button" class="button2">Call Now</button>
+                    </div>
+                    <div class="square02">
+                        <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYRJREFUSEu1lt9RAjEQh78448GbdCAlYAWSChwrkBKOCtQKpAToACsIVCBWIHSAb3DMECf3B8JdAuGQPN1lsr9vd7O7d4IrL3FlfY4Cmqi2hicNXaADtHOH5sBMwETA5wpp3p3LA1CtCD6AXmCEwwT6IJfl8xXALaojQAGtQPHi2FKD3CBntt0BoInqbjPxumt5A88r5KQQsABpWr6sPNeFzBN4KNK1AzRQsc7yfvES0F8jB0bIBkw0PDrU3xMYNKBnOeDa25kKmK6RpvL2gAilXa4nyNQJU7Jb+DHPrr2ybXFmF0GEMiV25yizeA2jCGLgNfeqsncS0ED5UnT2nfhS9FZ4eLZiycB5yZCWqWmS+wsBiyQdK1lXHzRa3sWmSSp3EQj9NXPL7ubKqMi7eVwDUhGvRLD3Mk2XaZSXQM9HSVplAcPOFvT1BrCwxvW4xrjOMA6A11NfpEc/OBbA5DfeIIeBKbPHht8kB3xr6JXnfCjoVATmS+W8vH8BhIocO3f1v4o/t9eBGSLttqwAAAAASUVORK5CYII="/>
+                        Chat</p>
+                        <button type="button" class="button2">Chat Now</button>
+                    </div>
+                    <div class="square03">
+                        <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANJJREFUSEvtlU0OgjAQRl9J/NnJDdQTqCeQ3gRPJjfQG9SjwA10Z7qgBhGChKTUtAsTumxm5uu8r50KAi8RuD6TgJVwi2iJSko4Axtr1ndAHsHpibwN5bUCc1QOrB2LN+G5Rm5tAubH4u80jeweNtPItNrvbnoQUPEMLgKSRtCbgIGDqD3cdzvyJgDcgbjB7L2Dvn9/KfAAVsEQfUzOgF0Qk2vmKl7A1cDRuwdjHlp1zVqGjq+60MjBGdYfdhVD13lURJBah53jiUeHTz+aFVVwRC96bUUZkBv38AAAAABJRU5ErkJggg=="/>
+                        Video Call</p>
+                        <button type="button" class="button2">Video Now</button>
+                    </div>
+                    <div class="square04">
+                        <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQVJREFUSEvtlcsRgjAQhj8uXMUKLEEtIRVoCdCBVqCdaAlQAS1oB1qBeM1FZzOQYYAAA3Jh5Eiy/2uXxWPix5sYnxkR+KR74ARsRsb2AI4aFQuOjcgnlYPVSPCi/KZR2yrBJz9NgN1AIlurUUZ82YEhkIM8riuw6En0BkKJxSe1OA4ClqAySAMfhKTLTaIhLNW8CqGuiDIgKprU4saqFqD83gUIugiKVGINkcNNVbUAyxTax9mDSuZNbqRPZgSrqocQNLiRV6Y/NdVjCKTWuMlBbNauKesbUc8prV/7E3RG1xTRL5fdXaPMVi7vIvlQzsC6U177hSdwqK3rkaDO8hn9MqeK6AtyUWwZMt2HBgAAAABJRU5ErkJggg=="/>
+                        Message</p>
+                        <button type="button" class="button2">Message Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+           <!--#0600BF --> 
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container ">
+            <table class="tableFooter" width="100%">
+
+                <tr>
+              
+                  <td class="text-izq" width="250"><a href="#" class="logo logoF">Vaccination</a></td>
+                 
+                  <td><p class="subtitulo02 text-derecha">About</p></td>
+              
+                  <td><p class="subtitulo02 text-derecha">Company</p></td>
+
+                  <td><p class="subtitulo02 text-derecha">Support</p></td>
+              
+                </tr>
+  
+                <tr>
+              
+                  <td class="text-izq" width="230"><p>Our goal is to help the world free from the ongoing pandemic</p></td>
+                  
+                  <td>
+                      <ul>
+                          <li>About us</li>
+                          <li>Features</li>
+                          <li>News & Blog</li>
+                      </ul>
+                  </td>
+              
+                  <td>
+                      <ul>
+                          <li>How We Work?</li>
+                          <li>Capital</li>
+                          <li>Security</li>
+                      </ul>
+                  </td>
+
+                  <td>
+                      <ul>
+                          <li>FAQs</li>
+                          <li>Support Center</li>
+                          <li>Contact Us</li>
+                      </ul>
+                  </td>
+              
+                </tr>
+              
+            </table>
+            <p>Página Diseñada por @DulceSustaita</p>
+
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
