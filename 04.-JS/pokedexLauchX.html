@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="pokeestilo.css">
+    
+</head>
+<body>
+    <div class="pokedex">
+
+        <div class="left-container">
+            <div class="left-container__top-section">
+                <div class="top-section__blue"></div>
+                <div class="top-section__small-buttons">
+                  <div class="top-section__red"></div>
+                  <div class="top-section__yellow"></div>
+                  <div class="top-section__green"></div>
+                </div>
+            </div>
+
+
+            <div class="left-container__main-section-container">
+                <div class="left-container__main-section">
+                  <div class="main-section__white">
+                    <div class="main-section__black">
+                        <!--h1>Pokedex LaunchX</h1-->
+            
+                        <img class="img-center"  src="pokeball.png" alt="Pokemon" width="150px" id="pokeImg"><br>
+                        <div class="poke_id_name">
+                            <label id="pokeId"></label>
+                            <label id="poke"></label><br>
+                        </div>
+
+                    </div>
+                  </div>
+                  <div class="left-container__controllers">
+                    <div class="controllers__d-pad">
+                      <div class="d-pad__cell top"></div>
+                      <div class="d-pad__cell left"></div>
+                      <div class="d-pad__cell middle"></div>
+                      <div class="d-pad__cell right"></div>
+                      <div class="d-pad__cell bottom"></div>
+                    </div>
+                    <div class="controllers__buttons">
+                        <input type="text" placeholder="1 o pikachu" id="pokeName"><br>
+                        <button class="buttons__button" onclick="fetchPokemon()">Buscar</button>
+                        <!--button class="buttons__button" onclick="fetchPokemon()">Limpiar</button-->
+                        
+                    </div>
+                  </div>
+                </div>
+                <div class="left-container__right">
+                  <div class="left-container__hinge"></div>
+                  <div class="left-container__hinge"></div>
+                </div>
+              </div>          
+            
+        </div>
+        <div class="right-container">
+            <div class="right-container__black">
+              <div class="right-container__screen">
+                <label>Tipo:</label>
+                <label id="poketipo"></label><br>
+
+                <label>Altura: </label> 
+                <label id="altura"></label>
+                <label>Peso: </label>
+                <label id="pokepeso"></label><br>
+
+                <label>Habilidad 1:</label>
+                <label id="pokeH1"></label>
+                <label>Habilidad 2:</label>
+                <label id="pokeH2"></label>
+                <label>Habilidad Oculta:</label>
+                <label id="pokeHO"></label><br><br>
+
+                <div id="div-stats">
+                            
+                </div>
+              </div>
+            </div>
+
+          </div>
+        
+    </div>
+</body>
+<footer>
+    <script src="pokedexLaunchX.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+</footer>
+</html>
